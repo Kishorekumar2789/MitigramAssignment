@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="default">
+  
+  <listeners>
+        <listener class-name="com.mitigram.listeners.TestRetry"/>
+        <listener class-name="com.mitigram.listeners.AnnotationTransformer"/>
+    </listeners>
+  
+  <test name="LoginValidation">
+    <classes>
+      <class name="com.mitigram.tests.LoginTests"/>
+      <class name="com.mitigram.tests.CareersTests"/>
+      
+    </classes>
+  </test>
+</suite>

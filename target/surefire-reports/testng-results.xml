@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-24T08:29:06Z" name="default" finished-at="2021-05-24T08:29:41Z" duration-ms="35456">
+    <groups>
+    </groups>
+    <test started-at="2021-05-24T08:29:06Z" name="LoginValidation" finished-at="2021-05-24T08:29:41Z" duration-ms="35456">
+      <class name="com.mitigram.tests.CareersTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mitigram.tests.CareersTests@4df828d7]" started-at="2021-05-24T08:29:13Z" name="setUp" finished-at="2021-05-24T08:29:17Z" duration-ms="3543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyErrorValidaitonForm()[pri:1, instance:com.mitigram.tests.CareersTests@4df828d7]" started-at="2021-05-24T08:29:17Z" name="verifyErrorValidaitonForm" finished-at="2021-05-24T08:29:21Z" duration-ms="4073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorValidaitonForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mitigram.tests.CareersTests@4df828d7]" started-at="2021-05-24T08:29:21Z" name="tearDown" finished-at="2021-05-24T08:29:21Z" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mitigram.tests.CareersTests@4df828d7]" started-at="2021-05-24T08:29:26Z" name="setUp" finished-at="2021-05-24T08:29:30Z" duration-ms="3435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUploadresume()[pri:2, instance:com.mitigram.tests.CareersTests@4df828d7]" started-at="2021-05-24T08:29:30Z" name="verifyUploadresume" finished-at="2021-05-24T08:29:35Z" duration-ms="5046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUploadresume -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mitigram.tests.CareersTests@4df828d7]" started-at="2021-05-24T08:29:35Z" name="tearDown" finished-at="2021-05-24T08:29:35Z" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mitigram.tests.CareersTests -->
+      <class name="com.mitigram.tests.LoginTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mitigram.tests.LoginTests@5e25a92e]" started-at="2021-05-24T08:29:06Z" name="setUp" finished-at="2021-05-24T08:29:10Z" duration-ms="4892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginValidation()[pri:1, instance:com.mitigram.tests.LoginTests@5e25a92e]" started-at="2021-05-24T08:29:10Z" name="loginValidation" finished-at="2021-05-24T08:29:13Z" duration-ms="2845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mitigram.tests.LoginTests@5e25a92e]" started-at="2021-05-24T08:29:13Z" name="tearDown" finished-at="2021-05-24T08:29:13Z" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mitigram.tests.LoginTests@5e25a92e]" started-at="2021-05-24T08:29:21Z" name="setUp" finished-at="2021-05-24T08:29:25Z" duration-ms="3465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyForgotPasswordRedirection()[pri:2, instance:com.mitigram.tests.LoginTests@5e25a92e]" started-at="2021-05-24T08:29:25Z" name="verifyForgotPasswordRedirection" finished-at="2021-05-24T08:29:26Z" duration-ms="1480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPasswordRedirection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mitigram.tests.LoginTests@5e25a92e]" started-at="2021-05-24T08:29:26Z" name="tearDown" finished-at="2021-05-24T08:29:26Z" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mitigram.tests.LoginTests@5e25a92e]" started-at="2021-05-24T08:29:35Z" name="setUp" finished-at="2021-05-24T08:29:38Z" duration-ms="3577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyContactUsLinkRedirection()[pri:3, instance:com.mitigram.tests.LoginTests@5e25a92e]" started-at="2021-05-24T08:29:38Z" name="verifyContactUsLinkRedirection" finished-at="2021-05-24T08:29:41Z" duration-ms="2502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactUsLinkRedirection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mitigram.tests.LoginTests@5e25a92e]" started-at="2021-05-24T08:29:41Z" name="tearDown" finished-at="2021-05-24T08:29:41Z" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mitigram.tests.LoginTests -->
+    </test> <!-- LoginValidation -->
+  </suite> <!-- default -->
+</testng-results>

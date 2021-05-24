@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="35.781" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="webdriver.chrome.driver" value="/Users/kishorekumar.kuppus/Documents/MitigramProject/Mitigram-Workspace/Browsers/Chrome/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/kishorekumar.kuppus/Documents/MitigramProject/Mitigram-Workspace/target/test-classes:/Users/kishorekumar.kuppus/Documents/MitigramProject/Mitigram-Workspace/target/classes:/Users/kishorekumar.kuppus/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/kishorekumar.kuppus/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/kishorekumar.kuppus/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/kishorekumar.kuppus/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/kishorekumar.kuppus/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/kishorekumar.kuppus/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/kishorekumar.kuppus/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/kishorekumar.kuppus/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/kishorekumar.kuppus/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/kishorekumar.kuppus/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/kishorekumar.kuppus/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/kishorekumar.kuppus/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/kishorekumar.kuppus/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/kishorekumar.kuppus/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/kishorekumar.kuppus/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/kishorekumar.kuppus/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/kishorekumar.kuppus/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/kishorekumar.kuppus/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/kishorekumar.kuppus/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/kishorekumar.kuppus/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/kishorekumar.kuppus/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/kishorekumar.kuppus/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/kishorekumar.kuppus/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/kishorekumar.kuppus/.m2/repository/org/slf4j/slf4j-log4j12/2.0.0-alpha0/slf4j-log4j12-2.0.0-alpha0.jar:/Users/kishorekumar.kuppus/.m2/repository/org/slf4j/slf4j-api/2.0.0-alpha0/slf4j-api-2.0.0-alpha0.jar:/Users/kishorekumar.kuppus/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Stockholm"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/15.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/kishorekumar.kuppus/Documents/MitigramProject/Mitigram-Workspace/target/surefire/surefirebooter14520731973822195503.jar /Users/kishorekumar.kuppus/Documents/MitigramProject/Mitigram-Workspace/target/surefire 2021-05-24T10-29-05_370-jvmRun1 surefire18093810002936880213tmp surefire_0498939929179835117tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/kishorekumar.kuppus/Documents/MitigramProject/Mitigram-Workspace/target/test-classes:/Users/kishorekumar.kuppus/Documents/MitigramProject/Mitigram-Workspace/target/classes:/Users/kishorekumar.kuppus/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/kishorekumar.kuppus/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/kishorekumar.kuppus/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/kishorekumar.kuppus/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/kishorekumar.kuppus/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/kishorekumar.kuppus/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/kishorekumar.kuppus/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/kishorekumar.kuppus/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/kishorekumar.kuppus/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/kishorekumar.kuppus/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/kishorekumar.kuppus/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/kishorekumar.kuppus/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/kishorekumar.kuppus/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/kishorekumar.kuppus/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/kishorekumar.kuppus/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/kishorekumar.kuppus/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/kishorekumar.kuppus/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/kishorekumar.kuppus/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/kishorekumar.kuppus/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/kishorekumar.kuppus/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/kishorekumar.kuppus/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/kishorekumar.kuppus/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/kishorekumar.kuppus/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/kishorekumar.kuppus/.m2/repository/org/slf4j/slf4j-log4j12/2.0.0-alpha0/slf4j-log4j12-2.0.0-alpha0.jar:/Users/kishorekumar.kuppus/.m2/repository/org/slf4j/slf4j-api/2.0.0-alpha0/slf4j-api-2.0.0-alpha0.jar:/Users/kishorekumar.kuppus/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/kishorekumar.kuppus"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="suiteFile" value="mitigramtests.xml"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/15.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/kishorekumar.kuppus/Documents/MitigramProject/Mitigram-Workspace"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/kishorekumar.kuppus/Documents/MitigramProject/Mitigram-Workspace/target/surefire/surefirebooter14520731973822195503.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.2+7"/>
+    <property name="user.name" value="kishorekumar.kuppus"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/kishorekumar.kuppus/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/cq/vtvsmjw9219cbx3rjrf413xw0000gn/T/"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="/Users/kishorekumar.kuppus/Documents/MitigramProject/Mitigram-Workspace"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/kishorekumar.kuppus/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="java.vm.version" value="15.0.2+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="loginValidation" classname="com.mitigram.tests.LoginTests" time="2.83">
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 47692
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considera[ti1on6s 2f1or8 s4ug4g9e4st6i.on47s2 o]n [kWeeApRinNgI CNhGro]m:eD rFivroemSroc kAsddarf ef.ai
+led on netmaCshkr
+o[m1e6D2r1i8v4e4r9 4w6a.s4 7s2t][aWrAtRedN sIuNcGc]es:s fFurlolmyS.oc
+kAddr failed on netmask
+May 24, 2021 10:29:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyForgotPasswordRedirection" classname="com.mitigram.tests.LoginTests" time="1.473">
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 1138
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1621844961.752][WARNING]: FromSockAddr failed on netmask
+[1621844961.752][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+May 24, 2021 10:29:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyContactUsLinkRedirection" classname="com.mitigram.tests.LoginTests" time="2.498">
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 48331
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1621844975.391][WARNING]: FromSockAddr failed on netmask
+[1621844975.391][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+May 24, 2021 10:29:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyErrorValidaitonForm" classname="com.mitigram.tests.CareersTests" time="4.05">
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 10008
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1621844954.028][WARNING]: FromSockAddr failed on netmask
+[1621844954.028][WARNING]: FromSockAddr failed on neCthmraosmk
+eDriver was started successfully.
+May 24, 2021 10:29:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyUploadresume" classname="com.mitigram.tests.CareersTests" time="5.042">
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 14451
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1621844966.792][WARNING]: FromSockAddr failed on netmask
+[1621844966.792][WARNING]: FromSockAddr failed on CnhertommaesDkr
+iver was started successfully.
+May 24, 2021 10:29:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

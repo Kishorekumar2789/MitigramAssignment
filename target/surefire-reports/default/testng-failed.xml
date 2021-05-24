@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [default]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.mitigram.listeners.TestRetry"/>
+    <listener class-name="com.mitigram.listeners.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="5" name="LoginValidation(failed)" verbose="0">
+    <classes>
+      <class name="com.mitigram.tests.CareersTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyUploadresume"/>
+          <include name="tearDown"/>
+          <include name="verifyErrorValidaitonForm"/>
+        </methods>
+      </class> <!-- com.mitigram.tests.CareersTests -->
+      <class name="com.mitigram.tests.LoginTests">
+        <methods>
+          <include name="loginValidation"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyForgotPasswordRedirection"/>
+          <include name="verifyContactUsLinkRedirection"/>
+        </methods>
+      </class> <!-- com.mitigram.tests.LoginTests -->
+    </classes>
+  </test> <!-- LoginValidation(failed) -->
+</suite> <!-- Failed suite [default] -->
