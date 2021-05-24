@@ -9,6 +9,8 @@
 ## Login Page
 	* Error Validation Scenario
 	* Login Happy path scenario
+	* Verifying Forgotpage redirection
+	* Verifying Contact Us page redirection
 ## Careers Page
 	* Error Validation Scenario
 	* PDF File upload Scenario
